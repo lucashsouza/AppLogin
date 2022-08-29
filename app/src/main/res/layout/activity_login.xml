@@ -83,6 +83,7 @@
         android:gravity="center" >
 
         <ImageView
+            android:id="@+id/btGoogle"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
@@ -102,7 +103,14 @@
 
     </LinearLayout>
 
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/socialIcons"
+        android:id="@+id/tvRegister"
+        android:text="Don't you have an account? SINGUP"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp" />
 
 </RelativeLayout>
